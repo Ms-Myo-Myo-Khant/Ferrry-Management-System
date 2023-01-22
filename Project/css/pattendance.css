@@ -1,0 +1,81 @@
+.parattendance{
+	width:  500px;
+	height: 650px;
+	/*margin: 0px auto;*/
+	background: lightgrey;
+	border-radius: 10px;
+}
+
+.attendancetitle h6{
+	text-align: center;
+	font-size: 45px;
+	margin-bottom: 75px;
+	margin-top: 30px;
+}
+
+
+.atthead{
+	width: 100%;
+	height: 50px;
+	/* background: grey; */
+	background: gold;
+	/* color: white; */
+	color: black;
+}
+
+.attbody{
+	width: 100%;
+	height: 600px;
+	/*background: lightcyan;*/
+	background: white;
+	/* color: #222; */
+	color: black;
+}
+
+.atthead table{
+	cursor: pointer;
+	width:100%;
+}
+
+.attbody table{
+	cursor: pointer;
+	width: 100%;
+	border-collapse: separate;
+    border-spacing: 0 10px;	
+}
+
+.attbody table tr{
+	/* background: lightgrey; */
+	background:  rgb(255, 236, 129);
+}
+
+.attbody table tr td:nth-child(1){
+	border-top-left-radius: 6px;
+	border-bottom-left-radius: 6px;
+}
+
+.attbody table tr td:nth-child(4){
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+
+.attbody table tr:hover{
+	background: grey;
+}
+
+
+.atthead table tr th{
+	line-height: 50px;
+	text-align: center;
+	width: 25%;
+	max-width: 25%;
+}
+
+.attbody table tr td{
+	overflow-x: hidden;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	width: 25%;
+	max-width: 25%;
+}

@@ -1,0 +1,238 @@
+.stulisttable{
+  width: 500px;
+  height: 700px;
+  /*background: cyan;*/
+  margin: 0px auto;
+  text-align: center;
+  box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+  -o-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+  -ms-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+  }
+
+.headlist{
+  display: block;
+  /*background: #fff;*/
+  /* background: #393939; */
+  background: gold;
+  width: 100%;
+  height: 50px;
+  /*border: 1px solid black;*/
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  /*color: #555555;*/
+  /* color: #00ad5f; */
+  color: black;
+}
+
+
+.bodylist{
+  display: block;
+  width: 100%;
+  height: 650px;
+  overflow-y: scroll;
+  text-align: center;
+  /* color: #808080; */
+color: black;
+}
+
+
+
+.bodylist tr{
+  width: 100%;
+  height: 55px;
+  /* background: #f7f7f7;  origin bg */
+  /*background: green;*/
+  /* background: #222222; */
+  /* background: #222; */
+  background: rgb(255, 236, 129);
+  cursor: pointer;
+  overflow: hidden; 
+  border-bottom: 10px solid #fff;
+}
+
+.bodylist table{
+  border-collapse: separate;
+    border-spacing: 0 10px;
+    border-radius: 10px;
+}
+
+.bdd{
+  border-radius: 20px;
+}
+
+.bodylist tr td:hover{
+  background-color:#393939 ;
+  cursor: pointer;
+}
+
+.bodylist tr td:nth-child(1){
+  width:250px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.bodylist tr td:last-child{
+  /*width:250px;*/
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.bodylist tr td:nth-child(2){
+  width:50px;
+
+}
+
+.headlist tr th:nth-child(1){
+  width:250px;
+}
+
+.headlist tr th:nth-child(2){
+  width:50px;
+}
+
+.bodylist tr td{
+  width:100px;
+
+}
+
+.headlist tr th{
+  width:100px;
+}
+
+
+
+.bodylist tr td{
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+}
+
+.bodylist tr td{
+  border-bottom-right-radius: 2px;
+  border-top-right-radius: 2px;
+}
+
+
+
+.bodylist::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 3px;
+  background-color: #F5F5F5;
+}
+
+.bodylist::-webkit-scrollbar
+{
+  width: 3px;
+  background-color: #F5F5F5;
+}
+
+.bodylist::-webkit-scrollbar-thumb
+{
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #555;
+}
+
+.setcarcov h6{
+  font-size: 25px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.studentlistinfocontent input[type='date'],.studentlistinfocontent input[type='email']{
+  width: 100%;
+  height: 40px;
+  border: none;
+  box-shadow: none;
+  text-align: left;
+  padding-left: 15px;
+
+}
+
+.studentlistinfocontent h1{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 25px;
+  }
+
+.studentlistinfocontent .backbut{
+    width: 95px;
+    height: 40px;
+    background: green;
+    color: black;
+    margin-left: 5px;
+    border: none;box-shadow: none;
+    border: 1px solid black;
+    margin-top: 20px;
+  }
+
+.studentlistinfocontent .submit{
+    width: 95px;
+    height: 40px;
+    background: green;
+    color: black;
+    margin-left: 5px;
+    border: none;box-shadow: none;
+    border: 1px solid black;
+    float: right;
+    margin-right: 7px;
+    margin-top: 20px; 
+  }
+
+
+ .setcarcov{
+    overflow-x:auto;
+  }
+
+  .setcarcov::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 1px;
+  background-color: #F5F5F5;
+}
+
+.setcarcov::-webkit-scrollbar
+{
+  /*width: 5px;*/
+  height: 2px;
+  background-color: #F5F5F5;
+}
+
+.setcarcov::-webkit-scrollbar-thumb
+{
+  border-radius: 1px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #555;
+}
+ 
+.ipad{
+  padding-right:-25px;
+}
+
+
+.cph{
+  display: none;
+}
+
+
+.confirm,.yes a .fa{
+  /*background: #fff;*/
+  color: #00ad5f;
+}
+
+.cancel,.no a .fa{
+  /*background: #fff;*/
+  color: red;
+}
+/*-------------------------------------------------------------------*/
+
+
+
+
+
+
+
+

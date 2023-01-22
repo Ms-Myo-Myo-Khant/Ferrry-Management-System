@@ -1,0 +1,440 @@
+/*html{
+  overflow-y: scroll;
+}
+
+ html::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 1px;
+  background-color: #F5F5F5;
+}
+
+html::-webkit-scrollbar
+{
+
+  width:2px;
+  background-color: #F5F5F5;
+}
+
+html::-webkit-scrollbar-thumb
+{
+  border-radius: 1px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #555;
+}
+*/
+.carlist{
+  width: 300px;
+  height: 220px;
+  /*background: grey;*/
+  border: 0.5px solid rgba(0,0,0,.125);
+  margin: 0px auto;
+  color: black;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+
+.carbg{
+  width: 300px;
+  height: 140px;
+  margin: 0px auto;
+  text-align: center;
+  position: relative;
+
+}
+
+.carcontent{
+  width: 300px;
+  height: 80px;
+  margin: 0px auto;
+  text-align: center;
+  font-weight: normal;
+}
+
+.lft{
+  width: 80px;
+  height: 80px;
+  display: block;
+  float: left;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 20px;
+  }
+
+.rght{
+  width: 220px;
+  height: 80px;
+  float: right;
+  text-align: center;
+  padding-top: 30px;
+
+}
+
+.carbg .textonimg{
+  position: absolute;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+  margin: 0 auto; /* Center the text container */
+  /*padding: 10px;*/
+  width: 50%;
+  background-color: white;
+  /* color:grey; */
+  color: #000000;
+}
+
+@media (min-width: 992px) {
+ 
+
+}
+
+
+@media (max-width: 1368px) {
+ .carlist{
+  width: 280px;
+  height: 220px;
+  /*background: grey;*/
+  border: 0.5px solid rgba(0,0,0,.125);
+  margin: 0px auto;
+  color: black;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+
+.carbg{
+  width: 280px;
+  height: 140px;
+  margin: 0px auto;
+  text-align: center;
+  position: relative;
+
+}
+
+.carcontent{
+  width: 280px;
+  height: 80px;
+  margin: 0px auto;
+  text-align: center;
+  font-weight: normal;
+}
+
+.lft{
+  width: 100px;
+  height: 80px;
+  display: block;
+  float: left;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 20px;
+  }
+
+.rght{
+  width: 180px;
+  height: 80px;
+  float: right;
+  text-align: center;
+  padding-top: 30px;
+   /*margin-top: -80px;*/
+}
+
+
+}
+/*(max-width: 1199px)*/
+
+@media (max-width: 1100px) {
+  .carlist{
+  width: 250px;
+  height: 220px;
+  /*background: grey;*/
+  border: 0.5px solid rgba(0,0,0,.125);
+  margin: 0px auto;
+  color: black;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+
+.carbg{
+  width: 250px;
+  height: 140px;
+  margin: 0px auto;
+  text-align: center;
+  position: relative;
+
+}
+
+.carcontent{
+  width: 250px;
+  height: 80px;
+  margin: 0px auto;
+  text-align: center;
+  font-weight: normal;
+}
+
+.lft{
+  width: 100px;
+  height: 80px;
+  display: block;
+  float: left;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 20px;
+  }
+
+.rght{
+  width: 150px;
+  height: 80px;
+  float: right;
+  text-align: center;
+  padding-top: 30px;
+}
+
+
+}
+/*(max-width: 991px)*/
+
+@media (min-width: 997px) and (max-width: 1199px) {
+ 
+}
+/*(min-width: 992px) and (max-width: 1199px)*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+}
+/*(min-width: 768px) and (max-width: 991px)*/
+
+@media (max-width: 987px) {
+ 
+ .carlist{
+  width: 300px;
+  height: 220px;
+  /*background: grey;*/
+  border: 0.5px solid rgba(0,0,0,.125);
+  margin: 0px auto;
+  color: black;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+
+.carbg{
+  width: 300px;
+  height: 140px;
+  margin: 0px auto;
+  text-align: center;
+  position: relative;
+
+}
+
+.carcontent{
+  width: 300px;
+  height: 80px;
+  margin: 0px auto;
+  text-align: center;
+  font-weight: normal;
+}
+
+.lft{
+  width: 80px;
+  height: 80px;
+  display: block;
+  float: left;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 20px;
+  }
+
+.rght{
+  width: 220px;
+  height: 80px;
+  float: right;
+  text-align: center;
+  padding-top: 30px;
+}
+
+
+}
+/*(max-width: 767px)*/
+
+@media (max-width: 880px) {
+  .carlist{
+  width: 270px;
+  height: 220px;
+  /*background: grey;*/
+  border: 0.5px solid rgba(0,0,0,.125);
+  margin: 0px auto;
+  color: black;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+
+.carbg{
+  width: 270px;
+  height: 140px;
+  margin: 0px auto;
+  text-align: center;
+  position: relative;
+
+}
+
+.carcontent{
+  width: 270px;
+  height: 80px;
+  margin: 0px auto;
+  text-align: center;
+  font-weight: normal;
+}
+
+.lft{
+  width: 90px;
+  height: 80px;
+  display: block;
+  float: left;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 20px;
+  }
+
+.rght{
+  width: 180px;
+  height: 80px;
+  float: right;
+  text-align: center;
+  padding-top: 30px;
+}
+
+
+}
+
+@media (max-width: 760) {
+ .carlist{
+  width: 300px;
+  height: 220px;
+  /*background: grey;*/
+  border: 0.5px solid rgba(0,0,0,.125);
+  margin: 0px auto;
+  color: black;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+
+.carbg{
+  width: 300px;
+  height: 140px;
+  margin: 0px auto;
+  text-align: center;
+  position: relative;
+
+}
+
+.carcontent{
+  width: 300px;
+  height: 80px;
+  margin: 0px auto;
+  text-align: center;
+  font-weight: normal;
+}
+
+.lft{
+  width: 80px;
+  height: 80px;
+  display: block;
+  float: left;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 20px;
+  }
+
+.rght{
+  width: 220px;
+  height: 80px;
+  float: right;
+  text-align: center;
+  padding-top: 30px;
+}
+
+
+}
+
+@media (max-width: 430px) {
+ .carlist{
+  width: 300px;
+  height: 220px;
+  /*background: grey;*/
+  border: 0.5px solid rgba(0,0,0,.125);
+  margin: 0px auto;
+  color: black;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+
+.carbg{
+  width: 300px;
+  height: 140px;
+  margin: 0px auto;
+  text-align: center;
+  position: relative;
+
+}
+
+.carcontent{
+  width: 300px;
+  height: 80px;
+  margin: 0px auto;
+  text-align: center;
+  font-weight: normal;
+}
+
+.lft{
+  width: 80px;
+  height: 80px;
+  display: block;
+  float: left;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 20px;
+  }
+
+.rght{
+  width: 220px;
+  height: 80px;
+  float: right;
+  text-align: center;
+  padding-top: 30px;
+}
+
+
+}
+
+.content{
+        overflow-y: scroll;
+      }
+
+       .content::-webkit-scrollbar-track
+      {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        border-radius: 1px;
+        background-color: #F5F5F5;
+      }
+
+      .content::-webkit-scrollbar
+      {
+        width:2px;
+        background-color: #F5F5F5;
+      }
+
+      .content::-webkit-scrollbar-thumb
+      {
+        border-radius: 1px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+        background-color: #555;
+      }

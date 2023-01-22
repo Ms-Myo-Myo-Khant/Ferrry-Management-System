@@ -1,0 +1,680 @@
+/*html{
+  overflow-y: scroll;
+}
+
+ html::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 1px;
+  background-color: #F5F5F5;
+}
+
+html::-webkit-scrollbar
+{
+  width:2px;
+  background-color: #F5F5F5;
+}
+
+html::-webkit-scrollbar-thumb
+{
+  border-radius: 1px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #555;
+}*/
+
+.carlist{
+  width: 290px;
+  height: 240px;
+  border: 0.5px solid rgba(0,0,0,.125);
+  margin: 0px auto;
+  color: black;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.carbg{
+  width: 290px;
+  height: 130px;
+  margin: 0px auto;
+  text-align: center;
+  position: relative;
+}
+
+.carcontent{
+  width: 290px;
+  height: 110px;
+  margin: 0px auto;
+  text-align: center;
+  font-weight: normal;
+}
+
+.setcarcov form{
+  margin: 0px auto;
+}
+
+.lft{
+  width: 90px;
+  height: 110px;
+  display: block;
+  float: left;
+  text-align: center;
+  padding-top: 55px;
+  font-size: 20px;
+  }
+
+.rght{
+  width: 200px;
+  height: 110px;
+  float: right;
+  text-align: center;
+  padding-top: 55px;
+  /*padding-left: -20px;*/
+}
+
+.rght button{
+  border:none;
+  box-shadow: none;
+  background: #f1f2f7;
+}
+
+.rght button:hover{
+  color: #222;
+}
+
+.carbg .textonimg{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+  margin: 0 auto; /* Center the text container */
+  /*padding: 10px;*/
+  width: 50%;
+  background-color: white;
+  /* color:grey; */
+  color: #000000;
+}
+
+.showcarinfocontent h1{
+  padding-top: 25px;
+}
+
+.headtab{
+  width: 95%;
+  margin: 0px auto;
+  height: auto;
+  /*background: grey;*/
+  font-size: 22px;
+}
+
+.headtab table {
+  width: 100%;
+  margin-top: 50px;
+  border-collapse: separate;
+  border-spacing: 0 10px;  
+}
+
+
+
+.headtab table tr td:nth-child(1){
+  text-align: left;
+  width:35%;
+  padding-left:15px;
+}
+
+.headtab table tr td:last-child{
+  text-align: left;
+  width: 65%;
+  padding-left: 10px;
+}
+
+.headtab table tr{
+  width: 100%;
+  height: 55px;
+  /*background: #f7f7f7;*/
+  background: #e8e5e5;
+  /*background: green;*/
+  cursor: pointer;
+  overflow: hidden; 
+  border-bottom: 10px solid #fff;
+}
+
+.headtab table tr:hover{
+  background-color: #ebebeb;
+  cursor: pointer;
+}
+
+
+.headtab tr td:nth-child(1){
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.headtab tr td:last-child{
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.addbut:hover{
+  background: #fff;
+  color: #222;
+}
+
+
+.addcarinfocontent h6{
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+
+.addcarinfocontent #firstlist{
+  padding-bottom: 10px;
+}
+
+.buttoncar{
+  width: 100%;
+  margin-top: 30px;
+}
+
+.buttoncar .backbut:hover,.buttoncar .submit:hover{
+  background: #fff;
+  color: #222;
+  border: none;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 992px) {
+ .form-container {
+  /*background: grey;*/
+  display: block;
+  width: 400px;
+  margin: 60px auto;
+  margin-top: 20px;
+  text-align: left;
+}
+.cov,.dcov{
+  width: 550px;
+  /*background: grey;*/
+  /*border: 1px solid #3ed758;*/
+  margin: 0px auto;
+  padding: 50px 0 200px 0;
+  opacity: 1;
+  display: none;
+  margin-top: 30px;
+  border-radius: 7px;
+  -webkit-box-shadow: 0px 2px 18px -5px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 2px 18px -5px rgba(0,0,0,1);
+  box-shadow: 0px 2px 18px -5px rgba(0,0,0,1);
+}
+
+.fb{
+  width: 400px;
+  height: 50px;
+  display: block;
+  border: none;
+  box-shadow: none;
+  background: #3b5998;
+  color: #fff;
+  margin: 0px auto;
+  border-radius: 5px;
+}
+
+.cov .fgpw,.dcov .fgpw{
+  margin-left: 150px;
+  /*margin: 0px auto;*/
+  font-weight: bold;
+  /*line-height: 45px;*/
+
+}
+
+}
+
+
+@media (max-width: 1220px) {
+ .carlist{
+  width: 280px;
+  height: 240px;
+  border: 0.5px solid rgba(0,0,0,.125);
+  margin: 0px auto;
+  color: black;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.carbg{
+  width: 280px;
+  height: 130px;
+  margin: 0px auto;
+  text-align: center;
+  position: relative;
+}
+
+.carcontent{
+  width: 280px;
+  height: 110px;
+  margin: 0px auto;
+  text-align: center;
+  font-weight: normal;
+}
+
+.setcarcov form{
+  margin: 0px auto;
+}
+
+.lft{
+  width: 100px;
+  height: 130px;
+  display: block;
+  float: left;
+  text-align: center;
+  padding-top: 55px;
+  font-size: 20px;
+  }
+
+.rght{
+  width: 180px;
+  height: 130px;
+  float: right;
+  text-align: center;
+  padding-top: 55px;
+  /*padding-left: -20px;*/
+}
+
+}
+/*(max-width: 1199px)*/
+
+@media (max-width: 1100px) {
+   .carlist{
+  width: 250px;
+  height: 240px;
+  border: 0.5px solid rgba(0,0,0,.125);
+  margin: 0px auto;
+  color: black;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.carbg{
+  width: 250px;
+  height: 130px;
+  margin: 0px auto;
+  text-align: center;
+  position: relative;
+}
+
+.carcontent{
+  width: 250px;
+  height: 110px;
+  margin: 0px auto;
+  text-align: center;
+  font-weight: normal;
+}
+
+.setcarcov form{
+  margin: 0px auto;
+}
+
+.lft{
+  width: 100px;
+  height: 130px;
+  display: block;
+  float: left;
+  text-align: center;
+  padding-top: 55px;
+  font-size: 20px;
+  }
+
+.rght{
+  width: 150px;
+  height: 130px;
+  float: right;
+  text-align: center;
+  padding-top: 55px;
+  /*padding-left: -20px;*/
+}
+}
+/*(max-width: 991px)*/
+
+@media (min-width: 997px) and (max-width: 1199px) {
+   .carlist{
+  width: 250px;
+  height: 240px;
+  border: 0.5px solid rgba(0,0,0,.125);
+  margin: 0px auto;
+  color: black;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.carbg{
+  width: 250px;
+  height: 130px;
+  margin: 0px auto;
+  text-align: center;
+  position: relative;
+}
+
+.carcontent{
+  width: 250px;
+  height: 110px;
+  margin: 0px auto;
+  text-align: center;
+  font-weight: normal;
+}
+
+.setcarcov form{
+  margin: 0px auto;
+}
+
+.lft{
+  width: 100px;
+  height: 130px;
+  display: block;
+  float: left;
+  text-align: center;
+  padding-top: 55px;
+  font-size: 20px;
+  }
+
+.rght{
+  width: 150px;
+  height: 130px;
+  float: right;
+  text-align: center;
+  padding-top: 55px;
+  /*padding-left: -20px;*/
+}
+}
+/*(min-width: 992px) and (max-width: 1199px)*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+   .carlist{
+  width: 250px;
+  height: 240px;
+  border: 0.5px solid rgba(0,0,0,.125);
+  margin: 0px auto;
+  color: black;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.carbg{
+  width: 250px;
+  height: 130px;
+  margin: 0px auto;
+  text-align: center;
+  position: relative;
+}
+
+.carcontent{
+  width: 250px;
+  height: 110px;
+  margin: 0px auto;
+  text-align: center;
+  font-weight: normal;
+}
+
+.setcarcov form{
+  margin: 0px auto;
+}
+
+.lft{
+  width: 100px;
+  height: 130px;
+  display: block;
+  float: left;
+  text-align: center;
+  padding-top: 55px;
+  font-size: 20px;
+  }
+
+.rght{
+  width: 150px;
+  height: 130px;
+  float: right;
+  text-align: center;
+  padding-top: 55px;
+  /*padding-left: -20px;*/
+}
+}
+/*(min-width: 768px) and (max-width: 991px)*/
+
+@media (max-width: 987px) {
+ 
+  .carlist{
+  width: 320px;
+  height: 240px;
+  border: 0.5px solid rgba(0,0,0,.125);
+  margin: 0px auto;
+  color: black;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.carbg{
+  width: 320px;
+  height: 130px;
+  margin: 0px auto;
+  text-align: center;
+  position: relative;
+}
+
+.carcontent{
+  width: 320px;
+  height: 110px;
+  margin: 0px auto;
+  text-align: center;
+  font-weight: normal;
+}
+
+.setcarcov form{
+  margin: 0px auto;
+}
+
+.lft{
+  width: 100px;
+  height: 130px;
+  display: block;
+  float: left;
+  text-align: center;
+  padding-top: 55px;
+  font-size: 20px;
+  }
+
+.rght{
+  width: 220px;
+  height: 130px;
+  float: right;
+  text-align: center;
+  padding-top: 55px;
+  /*padding-left: -20px;*/
+}
+}
+/*(max-width: 767px)*/
+
+@media (max-width: 880px) {
+   .carlist{
+  width: 270px;
+  height: 240px;
+  border: 0.5px solid rgba(0,0,0,.125);
+  margin: 0px auto;
+  color: black;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.carbg{
+  width: 270px;
+  height: 130px;
+  margin: 0px auto;
+  text-align: center;
+  position: relative;
+}
+
+.carcontent{
+  width: 270px;
+  height: 110px;
+  margin: 0px auto;
+  text-align: center;
+  font-weight: normal;
+}
+
+.setcarcov form{
+  margin: 0px auto;
+}
+
+.lft{
+  width: 100px;
+  height: 130px;
+  display: block;
+  float: left;
+  text-align: center;
+  padding-top: 55px;
+  font-size: 20px;
+  }
+
+.rght{
+  width: 170px;
+  height: 130px;
+  float: right;
+  text-align: center;
+  padding-top: 55px;
+  /*padding-left: -20px;*/
+}
+}
+
+@media (max-width: 760) {
+   .carlist{
+  width: 320px;
+  height: 240px;
+  border: 0.5px solid rgba(0,0,0,.125);
+  margin: 0px auto;
+  color: black;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.carbg{
+  width: 320px;
+  height: 130px;
+  margin: 0px auto;
+  text-align: center;
+  position: relative;
+}
+
+.carcontent{
+  width: 320px;
+  height: 110px;
+  margin: 0px auto;
+  text-align: center;
+  font-weight: normal;
+}
+
+.setcarcov form{
+  margin: 0px auto;
+}
+
+.lft{
+  width: 100px;
+  height: 130px;
+  display: block;
+  float: left;
+  text-align: center;
+  padding-top: 55px;
+  font-size: 20px;
+  }
+
+.rght{
+  width: 220px;
+  height: 130px;
+  float: right;
+  text-align: center;
+  padding-top: 55px;
+  /*padding-left: -20px;*/
+}
+}
+
+@media (max-width: 430px) {
+   .carlist{
+  width: 300px;
+  height: 240px;
+  border: 0.5px solid rgba(0,0,0,.125);
+  margin: 0px auto;
+  color: black;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.carbg{
+  width: 300px;
+  height: 130px;
+  margin: 0px auto;
+  text-align: center;
+  position: relative;
+}
+
+.carcontent{
+  width: 300px;
+  height: 110px;
+  margin: 0px auto;
+  text-align: center;
+  font-weight: normal;
+}
+
+.setcarcov form{
+  margin: 0px auto;
+}
+
+.lft{
+  width: 100px;
+  height: 130px;
+  display: block;
+  float: left;
+  text-align: center;
+  padding-top: 55px;
+  font-size: 20px;
+  }
+
+.rght{
+  width: 200px;
+  height: 130px;
+  float: right;
+  text-align: center;
+  padding-top: 55px;
+  /*padding-left: -20px;*/
+}
+}
+
+
+.content{
+        overflow-y: scroll;
+      }
+
+       .content::-webkit-scrollbar-track
+      {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        border-radius: 1px;
+        background-color: #F5F5F5;
+      }
+
+      .content::-webkit-scrollbar
+      {
+        /*width: 5px;*/
+        width:2px;
+        background-color: #F5F5F5;
+      }
+
+      .content::-webkit-scrollbar-thumb
+      {
+        border-radius: 1px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+        background-color: #555;
+      }

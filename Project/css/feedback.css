@@ -1,0 +1,93 @@
+.feedbackparent{
+	width: 800px;
+	height: auto;
+	margin: 20px auto;
+	padding: 15px;
+	text-align: center;
+	/* background: lightblue; */
+	background: rgb(255, 236, 129);
+}
+
+.fdbk:nth-child(1){
+	margin-top: 60px;
+}
+.fdbk{
+	width: 60%;
+	height: 60px;
+	/* background: black; */
+	background: #0e001f;
+	color: white;
+	border: 1px solid black;
+	text-align: center;
+	margin: 0px auto;
+	margin-bottom: 45px;
+	line-height: 60px;
+	transition: .3s;
+	cursor: pointer;
+
+}
+
+.fdbk1,.fdbk2,.fdbk3{
+	cursor: pointer;
+}
+
+.fdbk:hover{
+	/* background: grey; */
+	background: white;
+	border: 1px solid gold;
+	color:black;
+	transition: .3s;
+	border-radius: 2px;
+}
+
+.fdk h6{
+	text-align: center;
+	font-size: 45px;
+	color: black;
+	padding-bottom: 40px;
+}
+
+
+.fdk{
+	height: 2000px;
+}
+
+.tareapar{
+	display: block;
+	resize: none;
+	margin: 0px auto;
+	width: 60%;
+	height: 140px;
+	margin-bottom: 50px;
+}
+
+.feedbackparent h5{
+	display: block;
+	width: 60%;
+	text-align: center;
+	padding-bottom: 30px;
+	margin: 0px auto;
+	color: black;
+}
+
+.feedbackparent input[type='submit']{
+	width: 150px;
+	height: 50px;
+	border:1px solid black;
+	box-shadow: none;
+	border-radius: 7px;
+	/* background: black; */
+	background: gold;
+	text-align: center;
+	margin-top: -15px;
+	margin-bottom: 25px;
+	color: #000;
+	transition: .3s;
+}
+
+.feedbackparent input[type='submit']:hover{
+	background: #fff;
+	color: black;
+	border:1px solid gold;
+	transition: .3s;
+}

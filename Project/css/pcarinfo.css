@@ -1,0 +1,70 @@
+.carinfoimgparent{
+	width: 97%;
+	height: 380px;
+	margin: 0px auto;
+	margin-top: 10px;
+	margin-bottom: 31px;
+	display: none;
+	border:2px solid white;
+	border-radius: 10px;
+}
+
+.carinfoimgparent img{
+	width: 96%;
+	height:350px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+
+	.buttoncar{
+
+		width: 100%;
+		margin: 0px auto;
+		margin-top: 10px;
+	}
+
+	.buttoncar .carimgpar {
+		  display: block;
+		  margin: 0px auto;
+		  width: 95%;
+		  height: 60px;
+		  color: black;
+		  text-align: center;
+		  border: none;
+		  box-shadow: none;
+		  border:1px solid #000000;
+		  font-weight: bolder;
+		  /* background: #4e4e52; */
+		  background: gold;
+		  padding: 0 10px 0 10px;
+		  border-radius: 10px;
+	}
+
+	.buttoncar .carimgpar:hover{
+		background: #fff;
+		color: black;
+		border: 1px solid gold;
+	} 
+	.buttoncar1 .carimgpar1 {
+		display: block;
+		margin: 0px auto;
+		width: 95%;
+		height: 60px;
+		color: black;
+		text-align: center;
+		border: none;
+		box-shadow: none;
+		border:1px solid #000000;
+		font-weight: bolder;
+		/* background: #4e4e52; */
+		background: gold;
+		padding: 0 10px 0 10px;
+		border-radius: 10px;
+  }
+  .buttoncar1 .carimgpar1:hover{
+	background: #fff;
+	color: black;
+	border: 1px solid gold;
+}
+	  

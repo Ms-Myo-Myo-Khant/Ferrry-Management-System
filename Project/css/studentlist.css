@@ -1,0 +1,321 @@
+
+table {
+  width: 100%;
+}
+
+th, td {
+  font-weight: unset;
+  padding-right: 10px;
+}
+
+.editbut,.removebut{
+        width: 120px;
+        height: 50px;
+        /* background: green; */
+        /* background: rgb(255, 183, 0); */
+        background: gold;
+        /* color: white; */
+        color: black;
+        border: none;
+        box-shadow: none;
+        margin-top: 15px;
+        border-radius: 7px;
+}
+
+.but-wrap .editbut:hover,.but-wrap .removebut:hover{
+    background: #fff;
+    color: #222;
+  }
+
+.carlist{
+  width: 300px;
+  height: 220px;
+  /*background: grey;*/
+  border: 0.5px solid rgba(0,0,0,.125);
+  margin: 0px auto;
+  color: black;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+
+.carbg{
+  width: 300px;
+  height: 140px;
+  margin: 0px auto;
+  text-align: center;
+  position: relative;
+
+}
+
+.carcontent{
+  width: 300px;
+  height: 80px;
+  margin: 0px auto;
+  text-align: center;
+  font-weight: normal;
+}
+
+.lft{
+  width: 80px;
+  height: 80px;
+  display: block;
+  float: left;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 20px;
+  }
+
+.rght{
+  width: 220px;
+  height: 80px;
+  float: right;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.carbg .textonimg{
+  position: absolute;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+  margin: 0 auto; /* Center the text container */
+  /*padding: 10px;*/
+  width: 50%;
+  background-color: white;
+  color:grey;
+}
+
+
+
+.stulisttable{
+  width: 900px;
+  height: 600px;
+  /*background: cyan;*/
+  margin: 0px auto;
+  text-align: center;
+  box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+  -o-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+  -ms-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+  }
+
+.headlist{
+  display: block;
+  /* background: #fff; */
+  background: gold;
+  width: 100%;
+  height: 50px;
+  /*border: 1px solid black;*/
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  /* color: #555555; */
+  color: black;
+}
+
+.headlist tr th{
+  width: 25%;
+}
+
+.bodylist{
+  display: block;
+  /*background: white;*/
+  width: 100%;
+  height: 550px;
+  overflow-y: scroll;
+  text-align: center;
+  /* color: #808080; */
+  color: black;
+}
+
+
+
+.bodylist tr{
+  width: 100%;
+  height: 55px;
+  /* background: #f7f7f7; */
+  /*background: green;*/
+  background: rgb(255, 236, 129);
+  cursor: pointer;
+  overflow: hidden; 
+  border-bottom: 10px solid #fff;
+}
+
+.headlist tr th{
+  font-weight: bolder;
+}
+
+.bodylist table{
+  border-collapse: separate;
+    border-spacing: 0 10px;
+}
+
+.bdd{
+  border-radius: 20px;
+}
+
+.bodylist tr:hover{
+  background-color: #ebebeb;
+  cursor: pointer;
+}
+
+.bodylist tr td{
+  width: 25%;
+
+}
+
+.bodylist tr td:nth-child(1){
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.bodylist tr td:last-child{
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+
+
+.bodylist::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 3px;
+  background-color: #F5F5F5;
+}
+
+.bodylist::-webkit-scrollbar
+{
+  width: 8px;
+  background-color: #F5F5F5;
+}
+
+.bodylist::-webkit-scrollbar-thumb
+{
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #555;
+}
+
+.setcarcov h6{
+  font-size: 25px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.studentlistinfocontent input[type='date'],.studentlistinfocontent input[type='email']{
+  width: 100%;
+  height: 40px;
+  border: none;
+  box-shadow: none;
+  text-align: left;
+  padding-left: 15px;
+
+}
+
+.studentlistinfocontent h1{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 25px;
+  }
+
+.studentlistinfocontent .backbut{
+    width: 95px;
+    height: 40px;
+    /* background: green; */
+    background: gold;
+    color: black;
+    margin-left: 5px;
+    border: none;box-shadow: none;
+    border: 1px solid black;
+    margin-top: 20px;
+  }
+
+.studentlistinfocontent .submit{
+    width: 95px;
+    height: 40px;
+    /* background: green; */
+    background: gold;
+    color: black;
+    margin-left: 5px;
+    border: none;box-shadow: none;
+    border: 1px solid black;
+    float: right;
+    margin-right: 7px;
+    margin-top: 20px; 
+  }
+
+
+            .remth{
+                display: none;
+            }
+            .editstuinfodel{
+                display: none;
+
+            }
+
+            .editstuinfodel a i:hover{
+               color: #3ed758;
+            }
+            .editth{
+                display: none;
+            }
+
+            .editstuinfoedit{
+                font-size: 22px;
+                display: none;
+
+            }
+            .editstuinfoedit i,.editstuinfodel i{
+              font-size: 22px;
+              line-height: 75px;
+            }            
+
+            .editstuinfoedit a i:hover{               
+               color: #3ed758;
+            }
+
+            .issetstuname{
+                display: none;
+            }
+
+
+
+            .setcarcov{
+                overflow-x:auto;
+            }
+
+              .setcarcov::-webkit-scrollbar-track
+            {
+              -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+              border-radius: 1px;
+              background-color: #F5F5F5;
+            }
+
+            .setcarcov::-webkit-scrollbar
+            {
+              width: 1px;
+              background-color: #F5F5F5;
+            }
+
+            .setcarcov::-webkit-scrollbar-thumb
+            {
+              border-radius: 1px;
+              -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+              background-color: #555;
+            }
+
+/*-------------------------------------------------------------------*/
+
+
+
+
+
+
+
+

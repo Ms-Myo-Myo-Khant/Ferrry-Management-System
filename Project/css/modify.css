@@ -1,0 +1,67 @@
+/*.menutoggle {
+  border-radius: 50%;
+  color: #fff !important;
+  cursor: pointer;
+  font-size: 18px;
+  height: 43px;
+  line-height: 44px;
+  margin: -2px 20px 0 -57px;
+  text-align: center;
+  width: 43px; 
+  background: #3ed758;
+  }
+
+  .open .menutoggle i:before {
+  content:"\f101"; }
+
+*/
+  .navbar .navbar-nav li form input[type='submit']{
+    border:none;
+    box-shadow: none;    
+    background: none !important;
+    color: #c8c9ce !important;
+    display: inline-block;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 30px;
+    padding: 10px 0;
+    position: relative;
+    width: 70%;
+    text-align: left;
+    margin-left:15px;
+
+    }
+
+    .nav li form:hover{
+            color: #f8f9fa;
+    }
+
+
+    .rigstick{
+      margin-left: 15px;
+    }
+
+    .navbar .navbar-nav li form{
+        padding-top: 10px;
+    }
+    
+    .navbar .navbar-nav li form input[type='submit']:hover{
+        color: #d7d9e3;
+    }  
+
+    .open aside.left-panel .navbar .navbar-nav li form input[type='submit'] {
+    max-width: 60px;
+    display: none;
+    padding-left: 0;
+    }
+
+    aside.left-panel .navbar .navbar-nav li form input[type='submit'] {
+        padding: 5px 0; }
+    aside.left-panel .navbar .navbar-nav li.menu-item-has-children form input[type='submit']:before {
+        top: 5px; 
+    }  
+    body{
+        /* color: #8b939b; */
+        color: #3f3f3f;
+        overflow:hidden;
+    }

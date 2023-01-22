@@ -1,0 +1,28 @@
+.profileimgparentfo{
+	margin: 0px auto;
+	width: 150px;
+	height: 150px;
+	background: cyan;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	opacity: 1;
+	transition: 1s;
+	box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.54);
+	border-radius: 50%;
+}
+
+.profileimgparentfo:hover{	
+	border:2px solid white;
+	-webkit-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.54);
+	-moz-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.54);
+	box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.54);
+	transition: 1s;
+}
+.profileimgparentfo img{
+   border-radius: 50%;
+}
+
+.profileimgparentfo img:hover{
+	border-radius: 50%;
+	transition: 1s;
+}

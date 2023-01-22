@@ -1,0 +1,33 @@
+.carlab a{
+	display: block;
+	margin:0px auto;
+	text-align:center;
+	margin-left:-6px;
+	margin-top:2px;
+	width: 180px;
+	height: 45px;
+
+}
+
+.showmoredriverinfo a{
+	cursor: pointer;
+	display: block;
+	margin:0px auto;
+	text-align:center;
+	margin-left:-26px;
+	margin-top:5px;
+	width: 180px;
+	height: 45px;
+}
+
+
+.rght a{
+	cursor: pointer;
+	display: block;
+	margin:0px auto;
+	text-align:center;
+	margin-left:5px;
+	margin-top:-1px;
+	width: 180px;
+	height: 45px;
+}

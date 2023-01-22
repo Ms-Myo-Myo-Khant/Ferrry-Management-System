@@ -1,0 +1,254 @@
+.orhide{
+  display: none;
+}
+
+
+.flip-card {
+  background-color: transparent;
+  width: 200px;
+  height: 200px;
+  perspective: 1000px;
+  position: relative;
+  margin: 0px auto;
+  margin-bottom: 50px;
+  }
+
+.flip-card-inner {
+  position: relative;
+  width: 200%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  /* background-color: #2980b9; */
+  /* background-color: #4c00fc; */
+  background-color:gold;
+  /* color: white; */
+  /* color: purple; */
+  color: black;
+  transform: rotateY(180deg);
+  text-align: left;
+}
+
+.nameonimg{
+  position: absolute;
+  text-align: center;
+  bottom: -24px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  color: black;
+  font-size: 19px; 
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 10px;
+  width: 100%;
+}
+
+.flip-card-back i,.lic i{
+  text-align:left;
+  font-size: 20px;
+  color: white;
+  border: 1px solid white;
+  padding: 5px;
+  background: black;
+}
+
+.flip-card-back .ph,.flip-card-back .lic,.flip-card-back .gmail{
+  margin: 0px auto;
+  /*border-bottom: 1px solid white;*/
+  width: 96%;
+  height: 40px;
+  margin-top: 10px;
+}
+
+.ph label,.lic label,.gmail label{
+  font-size: 17px;
+  padding-left: 3px;
+}
+
+.gmail 
+{
+  font-size: 14px;
+}
+.showmoredriverinfo{
+  display: block;
+  margin: 0px auto;
+  width: 60%;
+  height: 40px;
+  /* background: #2980b9; */
+  /* background-color: #4c00fc; */
+  background-color: gold;
+  color: white;
+  text-align: center;
+  border: 1px solid black;
+  box-shadow: none;
+  border:2px solid white;
+  font-weight: bolder;
+}
+
+.showmoredriverinfo:hover{
+  background: white;
+  /* background:rgb(255, 183, 0); */
+  color: #2980b9;
+  border:1px solid gold;
+}
+
+
+.backbut{
+    width: 95px;
+    height: 40px;
+    /* background: green; */
+    background:rgb(255, 183, 0);
+    color: black;
+    margin-left: 5px;
+    box-shadow: none;
+    border: 1px solid black;
+    margin-top:20px;
+    border-radius: 7px;
+  }
+
+  .next{
+    width: 95px;
+    height: 40px;
+    /* background: green; */
+    background: rgb(255, 183, 0);
+    color: black;
+    margin-left: 5px;
+    box-shadow: none;
+    border: 1px solid black;
+    margin-top:20px;
+    float: right;
+    margin-right: 7px;
+    border-radius: 7px;
+  }
+
+  .submit,.backtoback{
+    width: 95px;
+    height: 40px;
+    /* background: green; */
+    background: rgb(255, 183, 0);
+    color: black;
+    margin-left: 5px;
+    box-shadow: none;
+    border: 1px solid black;
+    margin-top:20px;
+    display: none;
+    border-radius: 7px;
+  }
+
+ 
+
+  .showcarinfocontent h1{
+  padding-top: 25px;
+}
+
+.headtab{
+  width: 95%;
+  margin: 0px auto;
+  height: auto;
+  /*background: grey;*/
+  font-size: 22px;
+}
+
+.headtab table {
+  width: 100%;
+  margin-top: 50px;
+  border-collapse: separate;
+  border-spacing: 0 10px;  
+}
+
+
+
+.headtab table tr td:nth-child(1){
+  text-align: left;
+  width:35%;
+  padding-left:15px;
+  border-right: 1px solid grey;
+}
+
+.headtab table tr td:last-child{
+  text-align: left;
+  width: 65%;
+  padding-left: 20px;
+  /* background-color: rgb(255, 236, 129); */
+}
+
+.headtab table tr{
+  width: 100%;
+  height: 55px;
+  /*background: #f7f7f7;*/
+  /* background: #e8e5e5; */
+  /*background: green;*/
+  background-color: rgb(255, 236, 129);
+  cursor: pointer;
+  overflow: hidden; 
+  border-bottom: 10px solid #fff;
+}
+
+.headtab table tr:hover{
+  background-color: #ebebeb;
+  cursor: pointer;
+}
+
+
+.headtab tr td:nth-child(1){
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.headtab tr td:last-child{
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+
+
+
+/*
+.content{
+        overflow-y: scroll;
+      }
+
+       .content::-webkit-scrollbar-track
+      {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        border-radius: 1px;
+        background-color: #F5F5F5;
+      }
+
+      .content::-webkit-scrollbar
+      {
+        width:2px;
+        background-color: #F5F5F5;
+      }
+
+      .content::-webkit-scrollbar-thumb
+      {
+        border-radius: 1px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+        background-color: #555;
+      }
+
+
+*/
